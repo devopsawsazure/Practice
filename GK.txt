@@ -1,0 +1,41 @@
+aws==azure
+===========
+
+ec2--vm
+ami--image
+EBS----managed disks
+Cloud Formation-----ARM(azure resource manager)
+auto scalling===vm scale set(vmss)
+
+
+Resource group 
+===============
+Saved in a json/file format---what ever we do can be used next time
+
+ssd---faster disks(data base)---io operations
+hdd--not (tomcat servers)---ram should be good
+
+azure vm types
+================
+a-series/dev,test only
+d-series--general purpose/decent io,memory,()
+Dv2 series---t2.micro
+e-series/multiple pupose
+f
+g-series/fast mem,ram
+h
+n---(gaming),data transaction faster)used by banks. 
+
+
+Crontab -e
+============
+
+every month 5th 11:pm 
+0 23 5 * *
+
+
+
+
+
+
+

@@ -1,0 +1,7 @@
+az vm deallocate --resource-group new-rg --name vm 
+
+az vm generalize --resource-group new-rg --name vm
+
+az image create --resource-group new-rg --name vm1 --source vm
+
+az vm create --resource-group new-rg --name vm1 --image vmimage --admin-username surya --generate-ssh-keys
